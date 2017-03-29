@@ -2,6 +2,9 @@ package com.javarush.task.task08.task0816;
 
 import com.sun.org.apache.xerces.internal.impl.xpath.XPath;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -44,10 +47,7 @@ public class Solution {
         }
     }
 
-    public static void main(String[] args) throws Exception{
-        /*HashMap<String, Date> map = createMap();
-        removeAllSummerPeople(map);
+    public static void main(String[] args) throws Exception {
 
-        map.forEach((k,v)-> System.out.println(k+ ": "+ v));*/
     }
 }
