@@ -35,6 +35,8 @@ public class Solution {
 
     public static String method5() {
         StackTraceElement[] element = Thread.currentThread().getStackTrace();
+        for (int i=0; i<element.length;i++){
+            System.out.println(element[i]);}
         return element[2].getMethodName();
     }
 }
